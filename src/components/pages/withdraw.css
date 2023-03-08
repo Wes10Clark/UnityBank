@@ -1,0 +1,54 @@
+.withdraw {
+  background-color: #ffa07a;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.messagew {
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem;
+  color: #d9480f;
+}
+
+.inputw[type="number"] {
+  padding: 0.5rem;
+  border: 2px solid #d9480f;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  margin: 1rem;
+  width: 80%;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #555;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.buttonw[type="submit"] {
+  background-color: #d9480f;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease-in-out;
+  display: block;
+  margin: auto;
+}
+
+.buttonw[type="submit"]:hover {
+  background-color: #b03a02;
+}
+
+.buttonw[type="submit"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}

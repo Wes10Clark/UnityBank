@@ -1,0 +1,28 @@
+.footer {
+  background-color: #2aa55b;
+  color: white;
+  padding: 2rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav li {
+  margin-right: 1rem;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}

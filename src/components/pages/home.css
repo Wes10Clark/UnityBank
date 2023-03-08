@@ -1,0 +1,44 @@
+.home {
+  background-color: #b1ebc8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.welcome {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.promise {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #777;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.image {
+  width: 100%;
+  max-width: 600px;
+}
+.account {
+  text-align: justify;
+  line-height: 1.5;
+  color: #2aa55b;
+}
+
+.account h5 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.account p {
+  font-size: 1.2rem;
+  color: #777;
+}
